@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    
+</head>
+<body>
+    <audio id="somBacanudo" src="https://github.com/GildoUser/R/blob/main/SnapInsta%20(mp3cut.net)%20(2).mp3"></audio>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Feliz aniversário para o cara(digo isso com toda a tranquilidade) <strong>mais gostoso que existe!</strong></h1>
+            <img src="./assets/fotofe.png" alt="Foto do Felipe" id="fotofe">
+            <p class="apresentacao__conteudo__texto">Não sei dar um parabéns igual a uma pessoa normal mas sei fazer graça hehehe. Mas aqui eu vim te desejar as coisas mais lindas dessa vida, você merece tudo e mais um pouco! Cê sabe que eu me amarro muito na sua, né? Você tá no top 10 melhores pessoas que eu já conheci, tu é muito foda e eu te admiro muito, vou tá aqui sempre torcendo por você!</p>
+            <div class="apresentacao__links">
+
+                <div id="alinhar" onclick="show()">
+
+                    <h2 class="apresentacao__links__subtitulo" >Acesse seu presente:</h2>
+                    <img id="image" src="https://lh3.googleusercontent.com/pw/AIL4fc8jRR_fG28DFhYj8EJO9psMUJIKcqiU-H81d5f1UbvNfzB1kIn3vhHvf_KaeZvWjssMulk4QQwU2DUOjLfFYLqzR1UKitCnPG6tF8Q2S12Rjj5vsYl_cMzOF4mrDrwQB9FjMT-Wz_GTIWyh-UsUqrxyBKXdSMyJGKFiBp38sNn2O1kzyzEzkW2ldgWOx3rtdfqj-486xo4kT8WH1fXRPMLfvTgpu8v0WzhCg0uyMelLWCS89UT96pyEj21btmdfZpeYsLf_BDqLY0H2oYujQWY1Uuy9obR_E3XuadsoJhPoZBj1M1nGm9QLJdjigWQyo4S73qDafIPQJlaQUZYseSf1ywq5FxEV2eaOgsSq4JyqHoarQE9YSlTC5AgPcmTuR0GpkRMlSLEVWBpgeGEgOW48uWixSk6HPlmOch6rarFA3nCcV55YDxXb_5YS_FvDjPdOSIjrJNdZGoFbjsRmCMInT31GC4RitL40vJLze--jX1B0uGtCNREcWAXLUvX_X5e0Y3mPOkUHH73c8e9izKdy8yBY2Eutgf0qCelNTvhamWzt8p4Po6xnRkqbeuxnE9jt5oawKbJgeZqjh-lJTiqh4mGCC5xDu5w3xoxfuzR51RcC5vLIsWQvXS_TIMW_CrhrRQFShFGFcUANw-BxUqlXS_78WaDj5ajXAIl3T91ExpRx7pBhZ5iCKTe7FVALS_4qUwJHypig1T37jUrom_JdOCYd93MC66Bt6a7PKX_7Y-lirmr1Zyg7X2IO1dtAHpshtwLQ_UjUYWDV_SfgE8zcon02BazqWdiapuBW58M9pb8X5ljssa-yc_aHLWc74FjYKxtkn7Sx5ybg3ihEVBah-C6C-XEzPF87lKsgkJVUzFiCCd2cOL5xZVDrYyAqHKk02bK3czKwMcSxERxEcbEX3Q=w32-h32-s-no?authuser=0" />
+                </div>
+                <div id="grow">
+                </div>
+        </div>
+    </section>
+    </main>
+    <footer class="rodape">
+        <p>Feito por Luana com muito carinho.</p>
+    </footer>
+    <script>
+    
+    
+
+const playPromise = document.getElementById('somBacanudo')
+function show() {
+    let aumentar = document.getElementById('grow');
+    let regulador = 0;
+    
+    for ( let x = 0; x < 2000; x++){
+        regulador += 0.35
+        setInterval(()=>{
+            aumentar.style.height = regulador +'px';
+            
+        },0.1)
+        
+        if(regulador >= 300.00000000000017){
+            
+
+
+            
+            let image =  document.createElement('img')//document.getElementById("image");
+        image.src ="https://lh3.googleusercontent.com/pw/AIL4fc9TeqaqsIFlIUly1apNdxeNRxEs0HZzr17dVEapsHQL8b5EeiIIiv4loXK_d2jbrNJlVcyIKD_6YbJ2kARWXDAXCao_EwJeRtRglBIv8b2PJEasIaOX5-UPJHU02jXGAe1TgnC2QCrh2v_fEJA6rY_hsJxEDdADUpoED2T80qfY8igRk2qq-bIDuW0GsuiNp5EWWW3rgSLK7JMAEebH4_g022E_-AmUJUYrC8tnk5uuR3D73tBT-0aFXwAX2iMnO0JbqFgfahau2pzW2R80Or3b-w-LE0L01T-iVEMgvjeBks20t2mGTVc9KRwtdP4ZfgKEsMh31Ua8QqD5uqnU7Cga8_y3QnURoz0xPBQ3zW6xlR85glj0_bHeJqpozaE3A5ltVrYB2pwLK_Y7d1j182VGXS66jXCINoenOlLVWdOhp6PF-f_VlXv-dk6QCGrEzk4j3X5pjuzpl6aTm2lUCMUK4ElhpYeYfsGJZoQIGGJ8A2EIo8pWycMjPch-mkLpeUX4Xj6kISK24MtKH2zi5rmgjBqa2g38Pr5CKZNiQmJz0kmkwiWJ8l-YjhvoKmRHJfCCx6aCJg4n0GyMF1NS6vrYB1gwuqLAZuLsmayBrnI6eEfmmXLlfAZMwD1o1U3xJO4cJSUHJfoA34zD53adWzvi5OToPZCbeQudHkkF-K5X9LAoVh13p4wmdShtGQFEQ8ybKIokQcm06oYBw9yahbHPrr5foniLdZ9BjkUp4ddToXaE243m9rbVQb4KGjEOElRjDk3iRStnNUX28tgZ3aFivxhYatwR3Q1Gt5gcg38PSE2qWDIjpRuEwbth8Saur0L0Ojh9EVQOrpZSTZgo5OQu-_GsLfpjmHc6pvjxmNEwozexKL4FU1QWJq10EhQ-kK2hDgr7PLu4KwGPFWlj-EWJuA=w667-h676-s-no?authuser=0"
+        image.id = 'imagine'
+        aumentar.innerHTML=''
+        
+        
+        // document.getElementById("btnID")
+        //     .style.display = "none";
+        aumentar.appendChild(image)
+    }
+        
+
+    
+        
+    }
+    /* Get image and change value
+    
+    of src attribute */
+    if (playPromise != undefined){
+        console.log(playPromise)
+        playPromise.play().then(()=>{
+            console.log('audio reproduzido, teste')
+        }).catch((error)=>{
+            console.log('n foi', error.message)
+        })
+    }
+}
+
+
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+   /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+
+strong{
+    color: lightseagreen;
+}
+
+.apresentacao {
+    padding:8% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#alinhar{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid gold;
+    width: 50%;
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.apresentacao__conteudo__titulo{
+    padding-top: 2vh;
+    font-size: 1.3em;
+    font-family: 'Krona One', sans-serif;;
+}
+
+.apresentacao__conteudo__texto{
+
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__links {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    
+}
+
+.apresentacao__links__subtitulo {
+
+    font-family: 'Krona One', 'sans-serif';
+    font-weight: 400;
+    font-size: 1.125em;
+    display: flex;
+    align-items: center;
+    
+}
+
+#alinhar{
+
+    display: flex;
+    font-family: 'Krona One', 'sans-serif';
+    font-size: 14px;
+    border: 2px solid lightseagreen;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+    justify-content: space-around;
+
+
+}
+#alinhar:hover{
+    background-color: rgba(32, 178, 171, 0.226);
+    color: rgb(227, 227, 227);
+    transition: 204ms;
+}
+.apresentacao__links__link {
+
+   /* background-color: lightseagreen; */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid rgba(9, 108, 103, 0.332);
+    width: 20vw;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10.5px 0;
+    text-decoration: none;
+    color: #f6f6f6;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.apresentacao__links__link:hover {
+    background-color: #272727;
+    
+
+}
+
+.rodape {
+    padding: 24px;
+    color: black;
+    background-color: lightseagreen;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+
+}
+
+#fotofe{
+    width: 100%;
+    height: 100%;
+    max-width: 100vw;
+}
+
+#grow{
+    transition: 15566.5ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imagine{
+    width: 130%;
+    max-width: 100vw;
+}
+    </style>
+</body>
+</html>
